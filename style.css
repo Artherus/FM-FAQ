@@ -1,0 +1,174 @@
+body {
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%)) fixed;
+  background-repeat: no-repeat;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 12px;
+  overflow: hidden;
+}
+
+.wrapper {
+  background-color: hsl(240, 5%, 91%);
+  border-radius: 20px;
+  padding: 1em 3em;
+  margin: 8em 18em 0 20em;
+  height: 38em;
+  width: 70em;
+  overflow: hidden;
+}
+
+.pattern {
+  position: absolute;
+  width: 630px;
+  height: 700px;
+  bottom: 2em;
+  right: 63em;
+}
+
+.right-container {
+  position: relative;
+  bottom: 28em;
+  left: 38em;
+  width: 28em;
+}
+
+.woman {
+  height: 350px;
+  width: 450px;
+  position: relative;
+  right: 10em;
+  top: 3.5em;
+}
+
+.box {
+  position: absolute;
+  width: 160px;
+  top: 24.5em;
+  left: 14.2em;
+  z-index: 1;
+}
+
+button {
+  border: none;
+  background-color: hsl(240, 5%, 91%);
+}
+
+h3:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+h3 {
+  color: hsl(237, 12%, 33%);
+  display: inline;
+  font-weight: 400;
+}
+
+.weight {
+  font-weight: 700;
+}
+
+p {
+  color: hsl(240, 6%, 50%);
+  margin-left: 0.5em;
+}
+
+.rotate {
+  transform: rotate(180deg);
+}
+
+.drop-content {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.queries {
+  padding: 1.5em 0;
+  border-bottom: 2px solid #DDDDDD;
+}
+
+.arrow0 img {margin-left: 1.4em;}
+
+.arrow1 img {margin-left: 1.5em;}
+
+.arrow2 img {margin-left: 6em;}
+
+.arrow3 img {margin-left: 5.7em;}
+
+.arrow4 img {margin-left: 3.3em;}
+
+
+@media (max-width: 375px) {
+  .wrapper {
+    background-color: hsl(240, 5%, 91%);
+    border-radius: 30px;
+    padding: 1em 3em;
+    margin: 12em 0.5em 0 0.5em;
+    height: 38em;
+    width: 23em;
+    overflow: visible;
+  }
+
+  .right-container {
+    position: relative;
+    bottom: 10em;
+    left: -2em;
+    width: 28em;
+  }
+
+  .woman {
+    height: 200px;
+    width: 250px;
+    position: relative;
+    right: -2em;
+    top: -11em;
+
+  }
+
+  .pattern {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: 45em;
+    right: 4em;
+  }
+
+  .box {
+    position: absolute;
+    width: 100px;
+    top: 8.5em;
+    left: 5em;
+    z-index: 1;
+  }
+  h1{
+    text-align: center;
+  }
+
+  p {
+    color: hsl(240, 6%, 50%);
+    margin-left: 0.5em;
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 17px;
+  }
+
+  .queries {
+    padding: 1.2em 0;
+  }
+
+  .last{
+    border-bottom: 0;
+  }
+  .arrow0 img {margin-left: 0;}
+
+  .arrow1 img {margin-left: 0;}
+
+  .arrow2 img {margin-left: 0;}
+
+  .arrow3 img {margin-left: 0;}
+
+  .arrow4 img {margin-left: 0;}
+}
